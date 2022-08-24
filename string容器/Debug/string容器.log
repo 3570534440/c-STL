@@ -1,0 +1,68 @@
+﻿  deque容器.cpp
+  list.cpp
+D:\C++project\c++程序\STL\string容器\list.cpp(24,5): error C2601: “main”: 本地函数定义是非法的
+D:\C++project\c++程序\STL\string容器\list.cpp(12): message : 此行有一个“{”没有匹配项
+D:\C++project\c++程序\STL\string容器\list.cpp(12): fatal error C1075: “{”: 未找到匹配令牌
+  map容器.cpp
+D:\C++project\c++程序\STL\string容器\map容器.cpp(35,46): error C2143: 语法错误: 缺少“;”(在“)”的前面)
+D:\C++project\c++程序\STL\string容器\map容器.cpp(41,16): error C2143: 语法错误: 缺少“;”(在“std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>::iterator”的前面)
+  set容器.cpp
+D:\C++project\c++程序\STL\string容器\set容器.cpp(46,27): error C2371: “s”: 重定义；不同的基类型
+D:\C++project\c++程序\STL\string容器\set容器.cpp(43): message : 参见“s”的声明
+D:\C++project\c++程序\STL\string容器\set容器.cpp(63,10): error C2059: 语法错误:“)”
+D:\C++project\c++程序\STL\string容器\set容器.cpp(64,5): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\C++project\c++程序\STL\string容器\set容器.cpp(71,28): error C2065: “s”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75,31): error C2065: “stt”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75,35): error C2062: 意外的类型“int”
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75): error C2144: 语法错误:“unknown-type”的前面应有“;”
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75,41): error C2921: 重定义:“std::iterator”: 类 模板 将被重新声明为“iterator”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5911): message : 参见“std::iterator”的声明
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75): message : 参见“std::iterator”的声明
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75,49): error C2143: 语法错误: 缺少“;”(在“>”的前面)
+D:\C++project\c++程序\STL\string容器\set容器.cpp(75,49): error C2059: 语法错误:“>”
+D:\C++project\c++程序\STL\string容器\set容器.cpp(77,9): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\C++project\c++程序\STL\string容器\set容器.cpp(78,9): error C2065: “ret”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\set容器.cpp(78,23): error C2065: “s”: 未声明的标识符
+  stack.cpp
+  stl容器使用时机.cpp
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(28,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(27,7): error C2146: 语法错误: 缺少“;”(在标识符“MyPrint”的前面)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(28,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(28,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(37,6): error C2182: “doPrint”: 非法使用“void”类型
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(37,14): error C2065: “MyPrint”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(37,22): error C2146: 语法错误: 缺少“)”(在标识符“myPrint”的前面)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(38,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(38,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\C++project\c++程序\STL\string容器\stl容器使用时机.cpp(43,10): error C3861: “MyPrint”: 找不到标识符
+  vector容器.cpp
+  内建函数对象，适配器.cpp
+  常用查找算法.cpp
+  常用遍历算法1.cpp
+D:\C++project\c++程序\STL\string容器\常用遍历算法1.cpp(22,2): error C2059: 语法错误:“{”
+D:\C++project\c++程序\STL\string容器\常用遍历算法1.cpp(22,2): error C2334: “{”的前面有意外标记；跳过明显的函数体
+  常用集合算法.cpp
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,21): error C2065: “v1”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,32): error C2065: “v2”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,17): error C2672: “std::min”: 未找到匹配的重载函数
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,41): error C2780: “_Ty std::min(std::initializer_list<_Elem>,_Pr)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(73): message : 参见“std::min”的声明
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,41): error C2780: “const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(65): message : 参见“std::min”的声明
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(8,41): error C2780: “const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”: 应输入 3 个参数，却提供了 1 个
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(56): message : 参见“std::min”的声明
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(9,2): error C3861: “set_intersection”: 找不到标识符
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(10,2): error C3861: “set_union”: 找不到标识符
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(11,2): error C2146: 语法错误: 缺少“;”(在标识符“set_difference”的前面)
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(11,2): error C3861: “set_difference”: 找不到标识符
+D:\C++project\c++程序\STL\string容器\常用集合算法.cpp(14,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  源.cpp
+D:\C++project\c++程序\STL\string容器\源.cpp(19,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\C++project\c++程序\STL\string容器\源.cpp(35,3): error C2065: “cout”: 未声明的标识符
+D:\C++project\c++程序\STL\string容器\源.cpp(38,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+D:\C++project\c++程序\STL\string容器\源.cpp(37,10): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  谓词.cpp
+D:\C++project\c++程序\STL\string容器\谓词.cpp(22,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+D:\C++project\c++程序\STL\string容器\谓词.cpp(30,2): error C3861: “sart”: 找不到标识符
+D:\C++project\c++程序\STL\string容器\谓词.cpp(32,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  正在生成代码...
